@@ -5,6 +5,5 @@ export default (state = null, action) => { //if the argument comes in as undefin
     case 'BOOK_SELECTED':
         return action.payload;
     }
-    
     return state //case where we dont care about the action
 }
